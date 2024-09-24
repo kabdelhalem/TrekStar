@@ -9,11 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tamagui/config": "^1.112.0",
+    "@tamagui/core": "^1.112.0",
+    "@tamagui/web": "^1.112.0",
+    "@types/react": "~18.2.79",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "^2.19.0",
+    "react-native-reanimated": "^3.15.3",
+    "react-native-ui-lib": "^7.31.0",
+    "tamagui": "^1.112.0",
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
