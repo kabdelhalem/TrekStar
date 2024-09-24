@@ -5,16 +5,12 @@ import {Button} from "tamagui";
 import {config} from "@tamagui/config/v3";
 
 const tamaguiConfig = createTamagui(config);
-function Demo() {
-  return <Button theme="green">Hello world</Button>;
-}
 
 export default function App() {
   return (
     <TamaguiProvider config={tamaguiConfig}>
       <SafeAreaView className="flex-1 items-center justify-center bg-emerald-800">
         <View className="flex-1 items-center justify-center bg-emerald-800">
-          <Demo />
           <Text>Welcome to TrekStar</Text>
           <StatusBar style="auto" />
         </View>
